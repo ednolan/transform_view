@@ -1,6 +1,6 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO bemanproject/transform_view
+    REPO ednolan/transform_view
     REF "v@VERSION@"
     SHA512 @SHA512@
     HEAD_REF main
