@@ -123,6 +123,11 @@ jobs:
           ]
         }
 
+  vcpkg-ci:
+    uses: ednolan/infra-workflows/.github/workflows/reusable-beman-vcpkg-ci.yml@ednolan/vcpkg-release-workflow
+    with:
+      port_name: beman-transform-view
+
   create-issue-when-fault:
     needs: [preset-test, build-and-test]
     if: failure() && github.event_name == 'schedule'
