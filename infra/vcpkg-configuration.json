@@ -1,0 +1,15 @@
+{
+  "default-registry": {
+    "kind": "git",
+    "repository": "https://github.com/microsoft/vcpkg.git",
+    "baseline": "dc8d75cfc3281b8e2a4ed8ee4163c891190df932"
+  },
+  "registries": [
+    {
+      "kind": "git",
+      "repository": "https://github.com/ednolan/vcpkg-registry.git",
+      "baseline": "d3b8375ab9e2b2e1b3424e1e9e4e3fc5ffc26d46",
+      "packages": ["beman-*"]
+    }
+  ]
+}
